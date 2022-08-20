@@ -24,10 +24,10 @@ function prependCat(name){
     return name;
 }
 function removeLastCat(){
-    cats.slice(0,);
-    return cats;
+    const copyOfCats = cats.slice(0,cats.length-1);
+    return copyOfCats;
 }
 function removeFirstCat(){
-    newArray = cats.slice(-2)
+    const newArray = cats.slice(1)
     return newArray;
 }
